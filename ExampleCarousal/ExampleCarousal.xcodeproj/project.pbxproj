@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4317032322198F3B0025215A /* messi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4317031F22198F3B0025215A /* messi.png */; };
+		4317032422198F3B0025215A /* fabregas.png in Resources */ = {isa = PBXBuildFile; fileRef = 4317032022198F3B0025215A /* fabregas.png */; };
+		4317032522198F3B0025215A /* ronaldo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4317032122198F3B0025215A /* ronaldo.png */; };
+		4317032622198F3B0025215A /* pogba.png in Resources */ = {isa = PBXBuildFile; fileRef = 4317032222198F3B0025215A /* pogba.png */; };
+		43170328221992500025215A /* suarez.png in Resources */ = {isa = PBXBuildFile; fileRef = 43170327221992500025215A /* suarez.png */; };
+		4317032A221992F50025215A /* neymar.png in Resources */ = {isa = PBXBuildFile; fileRef = 43170329221992F50025215A /* neymar.png */; };
+		4317033122199AF80025215A /* pogbaWall.png in Resources */ = {isa = PBXBuildFile; fileRef = 4317032B22199AF80025215A /* pogbaWall.png */; };
+		4317033222199AF80025215A /* fabregasWall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4317032C22199AF80025215A /* fabregasWall.jpg */; };
+		4317033322199AF80025215A /* ronaldoWall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4317032D22199AF80025215A /* ronaldoWall.jpg */; };
+		4317033422199AF80025215A /* neymarWall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4317032E22199AF80025215A /* neymarWall.jpg */; };
+		4317033522199AF80025215A /* suarezWall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4317032F22199AF80025215A /* suarezWall.jpg */; };
+		4317033622199AF80025215A /* messiWall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4317033022199AF80025215A /* messiWall.jpg */; };
 		4385C4DE220DB329004EC542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385C4DD220DB329004EC542 /* AppDelegate.swift */; };
 		4385C4E0220DB329004EC542 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385C4DF220DB329004EC542 /* ViewController.swift */; };
 		4385C4E3220DB329004EC542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4385C4E1220DB329004EC542 /* Main.storyboard */; };
@@ -40,6 +52,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4317031F22198F3B0025215A /* messi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messi.png; sourceTree = "<group>"; };
+		4317032022198F3B0025215A /* fabregas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fabregas.png; sourceTree = "<group>"; };
+		4317032122198F3B0025215A /* ronaldo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ronaldo.png; sourceTree = "<group>"; };
+		4317032222198F3B0025215A /* pogba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pogba.png; sourceTree = "<group>"; };
+		43170327221992500025215A /* suarez.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suarez.png; sourceTree = "<group>"; };
+		43170329221992F50025215A /* neymar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neymar.png; sourceTree = "<group>"; };
+		4317032B22199AF80025215A /* pogbaWall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pogbaWall.png; sourceTree = "<group>"; };
+		4317032C22199AF80025215A /* fabregasWall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fabregasWall.jpg; sourceTree = "<group>"; };
+		4317032D22199AF80025215A /* ronaldoWall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ronaldoWall.jpg; sourceTree = "<group>"; };
+		4317032E22199AF80025215A /* neymarWall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neymarWall.jpg; sourceTree = "<group>"; };
+		4317032F22199AF80025215A /* suarezWall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suarezWall.jpg; sourceTree = "<group>"; };
+		4317033022199AF80025215A /* messiWall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = messiWall.jpg; sourceTree = "<group>"; };
 		4385C4DA220DB329004EC542 /* ExampleCarousal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleCarousal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4385C4DD220DB329004EC542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4385C4DF220DB329004EC542 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +110,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4317031222198DD50025215A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4317032C22199AF80025215A /* fabregasWall.jpg */,
+				4317033022199AF80025215A /* messiWall.jpg */,
+				4317032E22199AF80025215A /* neymarWall.jpg */,
+				4317032B22199AF80025215A /* pogbaWall.png */,
+				4317032D22199AF80025215A /* ronaldoWall.jpg */,
+				4317032F22199AF80025215A /* suarezWall.jpg */,
+				43170327221992500025215A /* suarez.png */,
+				43170329221992F50025215A /* neymar.png */,
+				4317032022198F3B0025215A /* fabregas.png */,
+				4317031F22198F3B0025215A /* messi.png */,
+				4317032222198F3B0025215A /* pogba.png */,
+				4317032122198F3B0025215A /* ronaldo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		4385C4D1220DB329004EC542 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +152,7 @@
 		4385C4DC220DB329004EC542 /* ExampleCarousal */ = {
 			isa = PBXGroup;
 			children = (
+				4317031222198DD50025215A /* Images */,
 				4385C4DD220DB329004EC542 /* AppDelegate.swift */,
 				4385C4DF220DB329004EC542 /* ViewController.swift */,
 				4385C4E1220DB329004EC542 /* Main.storyboard */,
@@ -264,9 +308,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				4385C516220DB3C0004EC542 /* CarousalSelector.xib in Resources */,
+				4317033122199AF80025215A /* pogbaWall.png in Resources */,
 				4385C4EB220DB32B004EC542 /* LaunchScreen.storyboard in Resources */,
+				4317033322199AF80025215A /* ronaldoWall.jpg in Resources */,
+				4317032422198F3B0025215A /* fabregas.png in Resources */,
+				4317032A221992F50025215A /* neymar.png in Resources */,
+				43170328221992500025215A /* suarez.png in Resources */,
+				4317033522199AF80025215A /* suarezWall.jpg in Resources */,
 				4385C517220DB3C0004EC542 /* CarousalSelectorCell.xib in Resources */,
+				4317032322198F3B0025215A /* messi.png in Resources */,
+				4317033422199AF80025215A /* neymarWall.jpg in Resources */,
+				4317032622198F3B0025215A /* pogba.png in Resources */,
+				4317033622199AF80025215A /* messiWall.jpg in Resources */,
+				4317032522198F3B0025215A /* ronaldo.png in Resources */,
 				4385C4E8220DB32B004EC542 /* Assets.xcassets in Resources */,
+				4317033222199AF80025215A /* fabregasWall.jpg in Resources */,
 				4385C4E3220DB329004EC542 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

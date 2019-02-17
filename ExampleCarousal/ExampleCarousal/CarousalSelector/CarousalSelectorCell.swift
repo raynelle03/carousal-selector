@@ -22,7 +22,7 @@ class CarousalSelectorCell: UICollectionViewCell {
     func setSelectedOrange() {
         viewSelected.layer.borderWidth = 2.0
         viewSelected.layer.masksToBounds = false
-        viewSelected.layer.borderColor = UIColor.blue.cgColor 
+        viewSelected.layer.borderColor = UIColor.orange.cgColor 
         viewSelected.layer.cornerRadius = viewSelected.frame.size.height/2
         viewSelected.clipsToBounds = true
         if animateOncell == 1 {

@@ -18,16 +18,88 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TyQ-BL-YZl" customClass="CarousalSelector" customModule="ExampleCarousal" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="74" width="375" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TyQ-BL-YZl" customClass="CarousalSelector" customModule="ExampleCarousal" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="20" width="375" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="PzJ-7G-Hsa"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ScQ-hf-l3S">
+                                <rect key="frame" x="0.0" y="158" width="375" height="509"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4c-6d-sAn">
+                                        <rect key="frame" x="27" y="10" width="321" height="23"/>
+                                        <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dTF-VB-fwC">
+                                        <rect key="frame" x="0.0" y="47" width="375" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="fZR-a5-fDe"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nby-Bh-qS5">
+                                        <rect key="frame" x="18" y="257" width="330" height="23"/>
+                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DDX-19-iQf">
+                                        <rect key="frame" x="18" y="290" width="330" height="23"/>
+                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20G-OL-OI1">
+                                        <rect key="frame" x="18" y="323" width="300" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="Ldw-9s-WTT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="DDX-19-iQf" secondAttribute="trailing" constant="27" id="8rt-NS-qdp"/>
+                                    <constraint firstItem="dTF-VB-fwC" firstAttribute="leading" secondItem="ScQ-hf-l3S" secondAttribute="leading" id="Cer-6V-R82"/>
+                                    <constraint firstItem="O4c-6d-sAn" firstAttribute="top" secondItem="ScQ-hf-l3S" secondAttribute="top" constant="10" id="GsN-3O-mNr"/>
+                                    <constraint firstAttribute="trailing" secondItem="dTF-VB-fwC" secondAttribute="trailing" id="LfL-Db-e0b"/>
+                                    <constraint firstItem="20G-OL-OI1" firstAttribute="leading" secondItem="ScQ-hf-l3S" secondAttribute="leading" constant="18" id="LqJ-IW-iuZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="O4c-6d-sAn" secondAttribute="trailing" constant="27" id="M8O-ew-Noz"/>
+                                    <constraint firstItem="DDX-19-iQf" firstAttribute="leading" secondItem="ScQ-hf-l3S" secondAttribute="leading" constant="18" id="S2e-ZF-Pem"/>
+                                    <constraint firstItem="O4c-6d-sAn" firstAttribute="leading" secondItem="ScQ-hf-l3S" secondAttribute="leading" constant="27" id="U1o-YY-U8c"/>
+                                    <constraint firstItem="nby-Bh-qS5" firstAttribute="leading" secondItem="ScQ-hf-l3S" secondAttribute="leading" constant="18" id="UzY-db-woJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="nby-Bh-qS5" secondAttribute="trailing" constant="27" id="VQk-kV-95o"/>
+                                    <constraint firstItem="20G-OL-OI1" firstAttribute="top" secondItem="DDX-19-iQf" secondAttribute="bottom" constant="10" id="bVA-m5-dcH"/>
+                                    <constraint firstItem="dTF-VB-fwC" firstAttribute="top" secondItem="O4c-6d-sAn" secondAttribute="bottom" constant="14" id="gfj-Tu-o0T"/>
+                                    <constraint firstAttribute="trailing" secondItem="20G-OL-OI1" secondAttribute="trailing" constant="57" id="nUH-Mc-YII"/>
+                                    <constraint firstItem="nby-Bh-qS5" firstAttribute="top" secondItem="dTF-VB-fwC" secondAttribute="bottom" constant="10" id="qLW-GN-Ccg"/>
+                                    <constraint firstItem="DDX-19-iQf" firstAttribute="top" secondItem="nby-Bh-qS5" secondAttribute="bottom" constant="10" id="xGv-06-iNZ"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TyQ-BL-YZl" secondAttribute="trailing" id="CrC-lB-PfI"/>
+                            <constraint firstItem="TyQ-BL-YZl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LMq-WX-fYY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ScQ-hf-l3S" secondAttribute="bottom" id="PdP-IT-ifL"/>
+                            <constraint firstItem="ScQ-hf-l3S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pwP-Of-WVa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ScQ-hf-l3S" secondAttribute="trailing" id="rHZ-PX-pWi"/>
+                            <constraint firstItem="ScQ-hf-l3S" firstAttribute="top" secondItem="TyQ-BL-YZl" secondAttribute="bottom" constant="10" id="tFh-DX-MGU"/>
+                            <constraint firstItem="TyQ-BL-YZl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="whr-Ac-dci"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="imgViewPlayer" destination="dTF-VB-fwC" id="b42-a2-mcy"/>
+                        <outlet property="lblClub" destination="nby-Bh-qS5" id="eST-7l-SwJ"/>
+                        <outlet property="lblHeight" destination="DDX-19-iQf" id="sgh-aC-WYf"/>
+                        <outlet property="lblName" destination="O4c-6d-sAn" id="MiG-IW-DUs"/>
+                        <outlet property="lblRank" destination="20G-OL-OI1" id="S9u-NY-CEG"/>
                         <outlet property="playersSelector" destination="TyQ-BL-YZl" id="Dcf-Uz-5Jl"/>
                     </connections>
                 </viewController>

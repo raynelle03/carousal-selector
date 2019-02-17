@@ -12,8 +12,8 @@ import UIKit
 struct CarousalItem {
     var image: UIImage = UIImage()
     var title: String = ""
-    var backgroundColor: UIColor = .blue
-    var borderColor: UIColor = .gray
+    var backgroundColor: UIColor = .gray
+    var borderColor: UIColor = .lightText
     var showsBorder: Bool = false
     var canBeEdited: Bool = false
 }
@@ -61,7 +61,7 @@ protocol CarousalSelectorDelegate: class {
         viewcollection.reloadData()
         viewForTransition.layer.borderWidth = 2.0
         viewForTransition.layer.masksToBounds = false
-        viewForTransition.layer.borderColor = UIColor.blue.cgColor
+        viewForTransition.layer.borderColor = UIColor.orange.cgColor
         viewForTransition.layer.cornerRadius = viewForTransition.frame.size.height/2
         viewForTransition.clipsToBounds = true
         viewForTransition.isHidden = true
@@ -200,7 +200,6 @@ protocol CarousalSelectorDelegate: class {
             return
         }
         delegate?.carousalSelectorWillStartEditing(self)
-
         self.reloadData()
     }
 }

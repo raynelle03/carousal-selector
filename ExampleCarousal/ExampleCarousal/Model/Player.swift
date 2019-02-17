@@ -9,8 +9,9 @@
 import Foundation
 struct Player {
     var name = ""
+    var iconimage = ""
     var image = ""
     var club = ""
     var height = ""
-    var rank = ""
+    var desp = ""
 }
