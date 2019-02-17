@@ -1,5 +1,4 @@
 # carousal-selector
 
 Created a reusable Carousal. This is just a basic example of how it can be implemented.
-
-![img_8659](https://user-images.githubusercontent.com/38100299/52914268-45ef5a80-32be-11e9-9277-3acf903e1b4f.PNG)
+![ezgif com-video-to-gif-2](https://user-images.githubusercontent.com/38100299/52914619-a8e2f080-32c2-11e9-80df-5d3018c6e8c8.gif)
